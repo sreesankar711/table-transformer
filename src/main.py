@@ -12,7 +12,7 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-sys.path.append("../detr")
+sys.path = ["/kaggle/working/table-transformer/detr"]
 from engine import evaluate, train_one_epoch
 from models import build_model
 import util.misc as utils
